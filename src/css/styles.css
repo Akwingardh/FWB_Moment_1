@@ -43,11 +43,11 @@ nav {
 
 #section-div {
     background-color: #e5e5e6;
-    margin: 15%;
-    padding: 5%;
     margin-top: 100px;
     line-height: 25px;
     margin-bottom: 100px;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 #body-heading {
@@ -62,6 +62,9 @@ nav {
     padding: 20px;
     text-align: justify;
     text-justify: inter-word;
+    width: 70%;
+    margin-left: 13%;
+    margin-right: auto;
 }
 
 #main-div {
@@ -94,7 +97,9 @@ picture img {
 
 @media screen and (min-width: 1250px) {
     #section-div {
-        width: 750px;
+        width: 1000px;
+        margin: 15%;
+        padding: 5%;
         margin-left: auto;
         margin-right: auto;
     }
