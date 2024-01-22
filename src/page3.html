@@ -37,7 +37,13 @@
 
         <section id="section-div">
             <h1 id="body-heading">Arbetsprocess</h1>
-            <p id="body-content">Uppgiften syftar till att ge en inblick i användningen av NodeJS för att underlätta webbutveckling. Målet är att automatisera uppgifter med ett kommandobaserat verktyg i NodeJs för att effektivisera utvecklingsprocessen för en webbplats. Dessutom strävar uppgiften efter att skapa en automatiserad utvecklingsmiljö med hjälp av Git och NodeJs för att möjliggöra automatisk publicering vid uppdateringar av webbplatsen eller Git-repot. Slutligen ingår att automatisera transpilering och minifiering av CSS, HTML och JavaScript, samt att automatiskt generera optimerade grafikfiler.</p>
+            <p class="paragraphs">För att få igång projektet började jag med att skapa HTML-kod och la strukturen för webbplatsen och skapa dess innehåll för att sen stilsätta med hjälp av CSS. När jag skulle börja jobba med sidan med bilduppgiften initierade jag npm och installerade parcel. Jag såg direkt till att göra en gitignore-fil så att node_modules-mappen inte skulle följa med i versionshanteringen av projektet. Jag initierade ett git-repository och skapade en utvecklingsgren. </p>
+            <p class="paragraphs">Jag gjorde sedan två scripts i package.json-filen, en för att starta en live-server med parcel, och en för att bygga webbplatsen. För att transpilera koden tillades “browerlist” som var satt till default. Detta gör att koden transpileras och kan användas på de flesta olika webbläsare. 
+            </p>
+            <p class="paragraphs">När jag sedan började jobba med bilderna som skulle optimeras så  kunde jag åstadkomma detta direkt i HTML-dokumentet genom att använda picture-element. På detta vis kunde jag konvertera bilderna till moderna filformat som är optimerade för webbläsare. För att även få med lite JavaScript i koden så skapade jag en funktion som gjorde så att om man trycker på hamburgermenyn i översta vänstra hörnet så får man fram en navigationsmeny till webbplatsens tre sidor.
+            </p>
+            <p class="paragraphs">Vid det här laget var jag nöjd med webbplatsens innehåll och funktionalitet och var redo att bygga webbplatsen och publicera den på Netlify. Genom att använda “build”-commandot kommer parcel automatiskt minifiera och optimera koden. 
+            </p>
         </section>
 
     </main>
