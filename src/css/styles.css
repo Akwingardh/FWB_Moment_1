@@ -12,7 +12,7 @@ body, html {
 
 nav {
     background-color: #ef233c;
-    height: 100%;
+    height: 170px;
     width: 100%;
 }
 
@@ -25,14 +25,19 @@ nav {
 
 #hamburger {
     margin: 10px;
-    padding-top: 40px;
+    padding-top: 50px;
     margin-left: 40px;
+    display: block;
 }
 
 #nav-list {
     list-style: none;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#list-div {
+    display: none;
 }
 
 #nav-list a {
@@ -52,7 +57,6 @@ nav {
 
 #nav-list li {
     padding-bottom: 10px;
-    display: none;
 }
 
 #section-div {
