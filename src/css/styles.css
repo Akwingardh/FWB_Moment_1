@@ -16,6 +16,19 @@ nav {
     width: 100%;
 }
 
+.lines {
+    background-color: #2B2D42;
+    width: 40px;
+    height: 10px;
+    margin: 5px;
+}
+
+#hamburger {
+    margin: 10px;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
 #nav-list {
     list-style: none;
     padding-top: 20px;
@@ -28,8 +41,8 @@ nav {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     font-size: 1.6rem;
-    font-family: "Playfair Display", sans-serif;
     font-weight: 600;
+    font-family: "Playfair Display", sans-serif;
     transition: 0.3s;
 }
 
@@ -39,6 +52,7 @@ nav {
 
 #nav-list li {
     padding-bottom: 10px;
+    display: none;
 }
 
 #section-div {
@@ -54,8 +68,9 @@ nav {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
-    font-family: "Playfair Display", serif;
     letter-spacing: 0.15rem;
+    font-family: "Playfair Display", serif;
+
 }
 
 #body-content {
@@ -98,9 +113,9 @@ picture img {
 @media screen and (min-width: 1250px) {
     #section-div {
         width: 1000px;
-        margin: 15%;
         padding: 5%;
         margin-left: auto;
         margin-right: auto;
     }
 }
+

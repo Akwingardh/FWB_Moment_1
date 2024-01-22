@@ -1,1 +1,1 @@
-console.log("hej");
+let hamburgerEl = document.getElementById

@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anna Wingårdh",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0",
